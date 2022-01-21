@@ -1,0 +1,341 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.link_top_navigation{
+    text-decoration: none;
+    color: white;
+}
+
+.film_name_link{
+    color: whitesmoke;
+}
+
+#main_div{
+    width: 100%;
+}
+
+h1{
+    font-family: 'SweetMavkaScript';
+    color: white;
+}
+
+.header_div{
+    background-color: #050980;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#welcomediv{
+    padding-left: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+#camera_svg{
+    padding-left: 100px;
+}
+
+.navigation_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.head_button {
+    width: 10;
+    padding-top: 15px;
+    font-family: 'SweetMavkaScript';
+}
+
+.content_ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-bottom: -20px;
+}
+
+ol{
+    padding: 0;
+    margin-top: -20px;
+    color: #ffff;
+}
+
+li{
+    margin-top: -20px;
+}
+
+#div_background_li_one{
+    background-color: #1e0eff;
+    background-image: url("../images/shawshank_background_image.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+}
+
+#div_background_li_two{
+    background-color: #1e0eff;
+    background-image: url("../images/godfather_background_image.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+}
+
+#div_background_li_three{
+    background-color: #1e0eff;
+    background-image: url("../images/godfather2_background_image.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+}
+
+#div_background_li_four{
+    background-color: #1e0eff;
+    background-image: url("../images/batman_background_image.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+}
+
+#div_background_li_five{
+    background-color: #1e0eff;
+    background-image: url("../images/12angry_background_image.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+}
+
+#div_background_li_six{
+    background-color: #1e0eff;
+    background-image: url("../images/shindler_background_image.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+}
+
+#div_background_li_seven{
+    background-color: #1e0eff;
+    background-image: url("../images/LOTR3_background_image.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+}
+
+#div_background_li_eight{
+    background-color: #1e0eff;
+    background-image: url("../images/pulp_background_image.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+}
+
+#div_background_li_nine{
+    background-color: #1e0eff;
+    background-image: url("../images/thegood_background_image.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+}
+
+#div_background_li_ten{
+    background-color: #1e0eff;
+    background-image: url("../images/LOTR1_background_image.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 650px;
+}
+
+.div_li{
+    margin-left: 120px;
+    padding-top: 60px;
+    padding-right: 50px;
+}
+
+.picture_poster{
+    width: 250px;
+    height: 350px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+.head_button:hover{
+    transform: scale(1.1, 1.1);
+    text-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+#num_one{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+#num_two{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+}
+
+#num_three{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 20px;
+}
+
+#num_four{
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+}
+
+#num_five{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 20px;
+}
+
+#num_six{
+    font-family: 'Merienda', cursive;
+    font-size: 20px;
+}
+
+#num_seven{
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 20px;
+}
+
+#num_eight{
+    font-family: 'Nerko One', cursive;
+    font-size: 20px;
+}
+
+#num_nine{
+    font-family: 'Dangrek', cursive;
+    font-size: 20px;
+}
+
+#num_ten{
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 20px;
+}
+
+.footer{
+    height: auto;
+    background-color: #2B2E80;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.footer_content{
+    width: 300px;
+    margin-top: 20px;
+}
+
+.footer_text{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+.map{
+
+    margin-top: 200px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: blue;
+    width: 100%;
+}
+
+iframe{
+    margin: 20px;
+    border-color: burlywood;
+    border-style: ridge;
+    border-width: 3px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px rgba(215, 141, 35, 1);
+}
+
+.ui-datepicker{
+    border-radius: 5px;
+    padding: 20px;
+    background-color: red;
+    opacity: 0.8;
+}
+
+iframe:hover{
+    box-shadow: 0 0 10px rgba(215, 141, 35, 1);
+    transition: 1s;
+}
+
+a{
+    color: tomato;
+}
+
+a:active{
+    color: white;
+}
+
+a:visited{
+    color: tomato;
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    16%  {background-color:yellow; left:250px; top:0px;}
+    33%  {background-color:blue; left:250px; top:150px;}
+    49%  {background-color:green; left:0px; top:150px;}
+    66% {background-color:black; left:-250px; top:150px;}
+    83% {background-color:purple; left:-250px; top:0px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+.footer_icon:hover{
+    fill: red;
+}
+
+@font-face {
+    font-family: "SweetMavkaScript"; 
+    src: url("fonts/title/SweetMavkaScript/SweetMavkaScript.otf"); 
+    src: url("fonts/title/SweetMavkaScript/SweetMavkaScript.otf?#iefix") format("embedded-opentype"),
+    url("fonts/title/SweetMavkaScript/SweetMavkaScript.woff") format("woff"), 
+    url("fonts/title/SweetMavkaScript/SweetMavkaScript.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
